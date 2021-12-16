@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-Bold.woff2') format('woff2'),
+        url('../css/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-BoldItalic.woff2') format('woff2'),
+        url('../css/Roboto-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-Italic.woff2') format('woff2'),
+        url('../css/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-BlackItalic.woff2') format('woff2'),
+        url('../css/Roboto-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-Light.woff2') format('woff2'),
+        url('../css/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-Black.woff2') format('woff2'),
+        url('../css/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-ThinItalic.woff2') format('woff2'),
+        url('../css/Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-Medium.woff2') format('woff2'),
+        url('../css/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-MediumItalic.woff2') format('woff2'),
+        url('../css/Roboto-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-Thin.woff2') format('woff2'),
+        url('../css/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-Regular.woff2') format('woff2'),
+        url('../css/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../css/Roboto-LightItalic.woff2') format('woff2'),
+        url('../css/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    height: 100vh;
+    background-color: #16a086;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Roboto', sans-serif;
+}
+.box{
+    width: 600px;
+    height: 480px;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    background-image: url("../img/bicycle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 190px;
+}
+.box-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.box-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.box-account:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+.box-account-icon{
+    width: 30px;
+}
+.box-order-info{
+    color:#888;
+    margin: 15px 0px;
+}
+.price-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.product-name{
+    color: #707080;
+}
+.product-total{
+    font-weight: 500;
+}
